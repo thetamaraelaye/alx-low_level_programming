@@ -1,9 +1,9 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+include <stdlib.h>
+include <time.h>
+include <stdio.h>
 
-/*
- * main - program checks positive, negative and zero
+/**
+ * main - Entry point
  *
  * Return: 0 (Success)
  */
@@ -22,9 +22,9 @@ int main(void)
 	{
 		printf("%d is zero\n", n);
 	}
-	else (n < 0)
+	else
 	{
-		printf("%d is negative\n", n);
+		printf("%d is negative\n", n );
 	}
 	return (0);
 }
