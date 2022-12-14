@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - a program that prints all the numbers of base 16 in lowercase, followed by a new line.
+ * main -  program prints numbers of base 16 in lowercase
  *
  * Return: 0 (Success)
  */
-int main(void)
+int main (void)
 {
 	int i;
 
@@ -19,4 +19,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-}	
+}
