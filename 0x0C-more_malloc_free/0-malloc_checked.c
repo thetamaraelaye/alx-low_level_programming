@@ -4,7 +4,8 @@
  * malloc_checked - allocates memory using malloc.
  * @b: amount of bytes.
  *
- * Return: pointer to the allocated memory./fail stat=98.
+ * Return: pointer to the allocated memory.
+ * fail stat of malloc = 98.
  */
 void *malloc_checked(unsigned int b)
 {
