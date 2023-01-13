@@ -5,7 +5,7 @@
 
 /**
  * _is_zero - determines if any number is zero.
- * @argv: argument vector.
+ * @argv: arguments vector.
  *
  * Return: no return.
  */
